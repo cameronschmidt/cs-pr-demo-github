@@ -33,3 +33,6 @@ var a = NaN;
 if (a === NaN) {  // Noncompliant; always false
   console.log("a is not a number");  // this is dead code
 }
+for (var i = 0; i < strings.length; i--) { // TODO: fix this code!
+  console.log("dead code")
+}

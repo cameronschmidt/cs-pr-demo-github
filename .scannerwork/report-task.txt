@@ -1,6 +1,6 @@
 projectKey=org.sonarqube.consulting.githubpr
 serverUrl=http://localhost:9079
 serverVersion=7.9.3.33349
-dashboardUrl=http://localhost:9079/dashboard?id=org.sonarqube.consulting.githubpr
-ceTaskId=AXMoW5fr9f47OR3azrux
-ceTaskUrl=http://localhost:9079/api/ce/task?id=AXMoW5fr9f47OR3azrux
+dashboardUrl=http://localhost:9079/dashboard?id=org.sonarqube.consulting.githubpr&pullRequest=2
+ceTaskId=AXMoYV7u9f47OR3azru5
+ceTaskUrl=http://localhost:9079/api/ce/task?id=AXMoYV7u9f47OR3azru5

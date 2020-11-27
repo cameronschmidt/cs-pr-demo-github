@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        withSonarQubeEnv('SonarQube8_4') {
+        withSonarQubeEnv('SonarQube_LATEST') {
           script {
             def scannerHome = tool 'SonarQubeScannerCLI';
             def nodeHome = tool 'NodeJS';

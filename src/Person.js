@@ -35,5 +35,5 @@ if (a === NaN) {  // Noncompliant; always false
 }
 
 for (var i = 0; i < strings.length; i--) { // TODO: fix this code!
-  console.log("dead code")
+  console.log("dead code") // TODO: definitely fix this code
 }

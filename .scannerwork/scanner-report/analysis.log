@@ -1,0 +1,64 @@
+SonarQube plugins:
+  - IaC Code Quality and Security 1.5.0.1600 (iac)
+  - PL/SQL Code Quality and Security 3.7.0.4372 (plsql)
+  - Scala Code Quality and Security 1.9.0.3429 (sonarscala)
+  - C# Code Quality and Security 8.34.0.42011 (csharp)
+  - Vulnerability Analysis 9.3.0.14923 (security)
+  - Java Code Quality and Security 7.7.0.28547 (java)
+  - HTML Code Quality and Security 3.6.0.3106 (web)
+  - Flex Code Quality and Security 2.7.0.2865 (flex)
+  - XML Code Quality and Security 2.5.0.3376 (xml)
+  - Text file Code Quality and Security 1.0.0.120 (text)
+  - VB.NET Code Quality and Security 8.34.0.42011 (vbnet)
+  - Swift Code Quality and Security 4.5.0.5305 (swift)
+  - CFamily Code Quality and Security 6.30.0.42324 (cpp)
+  - Python Code Quality and Security 3.9.0.9230 (python)
+  - Go Code Quality and Security 1.9.0.3429 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 2.9.0.1147 (kotlin)
+  - RPG Code Quality 3.2.0.3034 (rpg)
+  - PL/I Code Quality and Security 1.11.1.2727 (pli)
+  - T-SQL Code Quality and Security 1.6.0.4844 (tsql)
+  - VB6 Code Quality and Security 2.8.0.3021 (vb)
+  - Apex Code Quality and Security 1.9.0.3429 (sonarapex)
+  - JavaScript/TypeScript Code Quality and Security 8.8.0.17228 (javascript)
+  - Ruby Code Quality and Security 1.9.0.3429 (ruby)
+  - Vulnerability Rules for C# 9.3.0.14923 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 9.3.0.14923 (securityjavafrontend)
+  - License for SonarLint 9.3.0.51899 (license)
+  - Vulnerability Rules for JS 9.3.0.14923 (securityjsfrontend)
+  - COBOL Code Quality 4.6.2.4876 (cobol)
+  - Vulnerability Rules for Python 9.3.0.14923 (securitypythonfrontend)
+  - PHP Code Quality and Security 3.22.1.8626 (php)
+  - ABAP Code Quality and Security 3.10.0.3628 (abap)
+  - Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+  - Vulnerability Rules for PHP 9.3.0.14923 (securityphpfrontend)
+Global server settings:
+  - email.prefix=[SONARQUBE]
+  - sonar.cobol.copy.suffixes=.cpy
+  - sonar.cobol.file.suffixes=.cbl,.cpy
+  - sonar.core.id=32091589-14f3eefd9a9e0aa
+  - sonar.core.serverBaseURL=https://cslatest.eu.ngrok.io/
+  - sonar.core.startTime=2022-02-10T08:51:03+0100
+  - sonar.dbcleaner.daysBeforeDeletingInactiveBranchesAndPRs=30
+  - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=1040
+  - sonar.forceAuthentication=true
+  - sonar.governance.report.view.frequency=Weekly
+  - sonar.governance.report.view.recipients=cameron.schmidt@sonarsource.com
+  - sonar.plugins.risk.consent=ACCEPTED
+  - sonar.qualitygate.ignoreSmallChanges=false
+  - sonar.rpg.suffixes=.rpg,.rpgle,.RPG,.RPGLE,.SQLRPGLE
+  - sonar.scm.disabled=false
+  - sonar.tsql.file.suffixes=.tsql
+Project server settings:
+Project scanner properties:
+  - sonar.host.url=https://cslatest.eu.ngrok.io
+  - sonar.projectBaseDir=/Users/cameronschmidt/git/training/cs-pr-demo-github
+  - sonar.projectKey=org.sonarqube.consulting.githubpr
+  - sonar.projectName=GitHub PR example
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=4.6.1.2450
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src
+  - sonar.working.directory=/Users/cameronschmidt/git/training/cs-pr-demo-github/.scannerwork

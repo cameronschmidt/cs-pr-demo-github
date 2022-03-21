@@ -2,6 +2,9 @@ pipeline {
   agent any
   stages {
     stage('Build') {
+      tools {
+        jdk "JAVA11"
+      }
       steps {
         withSonarQubeEnv('SonarQube_LATEST') {
           script {
